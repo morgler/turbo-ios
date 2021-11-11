@@ -28,6 +28,12 @@ Add Turbo as a dependency through Xcode or directly to a Package.swift:
 .package(url: "https://github.com/hotwired/turbo-ios", from: "7.0.0-beta.1")
 ```
 
+Don't forget to add the dependency to your project target as well:
+
+```
+Project Settings -> General -> My Target -> Frameworks, Libraries, and Embedded Content
+```
+
 ## Manual
 
 You can always integrate the framework manually if your prefer, such as by adding the repo as a submodule, and linking `Turbo.framework` to your project.
